@@ -22,7 +22,7 @@ export default function Page() {
 
       <section className="quote"><div className="quote-mark">“</div><blockquote>We don&apos;t collect destinations.<br /><em>We collect the feeling of being there.</em></blockquote><p>— The Yash Trips journal</p></section>
 
-      <section className="contact section-pad" id="contact"><div className="contact-inner"><div><div className="section-label">03 / Start your story</div><h2>Where will you<br /><em>go next?</em></h2></div><div className="contact-copy"><p>Tell us what you&apos;re dreaming of. We&apos;ll help you make it real.</p><a className="button button-dark" href="mailto:hello@yashtrips.com">Let&apos;s talk <span>↗</span></a></div></div></section>
+      <section className="contact section-pad" id="contact"><div className="contact-inner"><div><div className="section-label">03 / Start your story</div><h2>Where will you<br /><em>go next?</em></h2></div><div className="contact-copy"><p>Tell us what you&apos;re dreaming of. We&apos;ll help you make it real.</p><a className="button button-dark" href="https://wa.me/919909996336?text=Hello%20Yash%20Trips%2C%20I%27d%20like%20to%20plan%20a%20trip." target="_blank" rel="noopener noreferrer">Let&apos;s talk <span>↗</span></a></div></div></section>
       <footer><a className="brand" href="#top"><Image src="/yash-trips-logo.png" alt="Yash Trips" width={38} height={38} /><span>YASH <i>TRIPS</i></span></a><p>Made for curious minds and open roads.</p><p>© 2026 Yash Trips</p></footer>
     </main>
   )
