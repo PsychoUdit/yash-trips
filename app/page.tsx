@@ -11,7 +11,7 @@ export default function Page() {
     <main className="site-shell">
       <section className="hero">
         <div className="hero-image"><Image src="/yash-trips-hero.png" alt="A peaceful mountain landscape discovered with Yash Trips" fill priority sizes="(max-width: 900px) 100vw, 58vw" /></div>
-        <header className="nav"><a className="brand" href="#top"><Image src="/yash-trips-logo.png" alt="Yash Trips" width={42} height={42} /><span>YASH<br /><i>TRIPS</i></span></a><nav><a href="#journeys">Journeys</a><a href="#story">Our story</a><a href="#contact">Contact</a></nav><a className="nav-cta" href="#contact">Plan a trip <span>↗</span></a></header>
+        <header className="nav"><a className="brand brand-primary" href="#top" aria-label="Yash Trips home"><Image src="/yash-trips-logo.png" alt="Yash Trips" width={46} height={46} /><span className="brand-name"><strong>YASH</strong><i>TRIPS</i><small>CURATED JOURNEYS</small></span></a><nav><a href="#journeys">Journeys</a><a href="#story">Our story</a><a href="#contact">Contact</a></nav><a className="nav-cta" href="#contact">Plan a trip <span>↗</span></a></header>
         <div className="hero-copy" id="top"><p className="eyebrow">Travel with intention</p><h1>Go where<br /><em>you feel alive.</em></h1><p className="hero-text">Thoughtful journeys, hidden corners, and the kind of memories that stay with you long after you return.</p><a className="button button-light" href="#journeys">Explore journeys <span>↗</span></a></div>
         <div className="hero-note"><span>01</span><span className="line" /><span>Discover your next story</span></div>
       </section>

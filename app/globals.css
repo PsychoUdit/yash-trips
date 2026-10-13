@@ -15,6 +15,13 @@ a { color:inherit; text-decoration:none; }
 .brand { display:flex; align-items:center; gap:10px; font-size:13px; font-weight:800; letter-spacing:.13em; line-height:.92; }
 .brand img { object-fit:contain; }
 .brand i, em { font-family:Georgia, serif; font-weight:400; }
+.brand-primary { gap:12px; position:relative; }
+.brand-primary img { filter:drop-shadow(0 3px 8px rgba(0,0,0,.2)); }
+.brand-name { display:flex; flex-direction:column; gap:2px; letter-spacing:.16em; font-size:15px; line-height:.85; }
+.brand-name strong { font-size:17px; letter-spacing:.2em; }
+.brand-name i { color:var(--orange); font-size:16px; letter-spacing:.23em; }
+.brand-name small { margin-top:5px; color:#bdc8c0; font-size:7px; letter-spacing:.2em; font-weight:600; white-space:nowrap; }
+.hero .brand-primary:after { content:''; position:absolute; left:58px; right:-14px; bottom:-8px; height:2px; background:var(--orange); transform:skewX(-25deg); opacity:.9; }
 .nav nav { display:flex; gap:34px; font-size:12px; letter-spacing:.07em; }
 .nav nav a { opacity:.8; transition:opacity .2s; }.nav nav a:hover { opacity:1; }
 .nav-cta,.button { display:inline-flex; gap:22px; align-items:center; padding:13px 18px; border:1px solid currentColor; font-size:12px; letter-spacing:.05em; transition:background .2s,color .2s; }.nav-cta:hover { background:var(--cream); color:var(--ink); }
